@@ -85,7 +85,7 @@
     <div class="col s6">
 
       <div>
-        <label for="date"><i class="fas fa-calendar"><span class="ml-2" style="font-family:ubuntu;"> Tanggal kajian?</span></i></label>
+        <label for="date"><i class="fas fa-calendar"><span class="ml-2" style="font-family:ubuntu;"> Tanggal kajian? <small class="text-muted">*Minimal 3 hari dari sekarang</small></span></i></label>
         <input readonly placeholder="tahun-bulan-tanggal" style="cursor:pointer;"  autocomplete="off" type="text" name="date" id="date" value="{{ old('date') }}" >
         @if ($errors->has('date'))
         <div class="alert alert-danger">
